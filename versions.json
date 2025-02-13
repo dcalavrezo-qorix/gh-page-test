@@ -1,15 +1,7 @@
 [
   {
-    "version": "test11",
-    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test11/"
-  },
-  {
-    "version": "pr-44",
-    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/pr-44/"
-  },
-  {
     "version": "main",
-    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/main/"
+    "url": "https://eclipse-score.github.io/score/main/"
   },
   {
     "version": "dandanel",
@@ -20,19 +12,11 @@
     "url": "https://dcalavrezo-qorix.github.io/gh-page-test/pr-50/"
   },
   {
+    "version": "test11",
+    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test11/"
+  },
+  {
     "version": "test_del",
     "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test_del/"
-  },
-  {
-    "version": "pr-53",
-    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/pr-53/"
-  },
-  {
-    "version": "pr-54",
-    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/pr-54/"
-  },
-  {
-    "version": "pr-55",
-    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/pr-55/"
   }
 ]
