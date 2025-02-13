@@ -31,8 +31,8 @@ jobs:
           # Combine active branches and PRs into one list
           VALID_ENTRIES=$(echo -e "$ACTIVE_BRANCHES\n$OPEN_PRS")
 
-          # Get current folder names
-          CURRENT_FOLDERS=$(find . -maxdepth 1 -type d -not -name '.' -exec basename {} \;)
+          # Get current folder names, excluding hidden folders
+          CURRENT_FOLDERS=$(find . -maxdepth 1 -type d -not -name '.' -not -path './.*' -exec basename {} \;)
 
           # Read versions.json
           if [[ -f versions.json ]]; then
