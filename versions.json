@@ -18,5 +18,9 @@
   {
     "version": "test_del",
     "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test_del/"
+  },
+  {
+    "version": "pr-56",
+    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/pr-56/"
   }
 ]
