@@ -12,11 +12,11 @@
     "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test11/"
   },
   {
-    "version": "test_del",
-    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test_del/"
-  },
-  {
     "version": "test_1",
     "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test_1/"
+  },
+  {
+    "version": "test_del",
+    "url": "https://dcalavrezo-qorix.github.io/gh-page-test/test_del/"
   }
 ]
