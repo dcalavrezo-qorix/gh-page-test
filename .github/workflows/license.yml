@@ -5,6 +5,7 @@ on:
   push:
   pull_request:
 
+    
 jobs:
   call-license-check:
     uses: qorix-group/cicd-workflows/.github/workflows/license-check.yml@dcalavrzo_dash
