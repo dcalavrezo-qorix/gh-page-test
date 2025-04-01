@@ -1,0 +1,13 @@
+name: Test License Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-license-check:
+    uses: qorix-group/cicd-workflows/.github/workflows/license-check.yml@dcalavrezo_dash_int
+    with:
+      repo-url: https://github.com/dcalavrezo-qorix/gh-page-test
+      bazel-target: "run //:license-check"
+    secrets:
+      gitlab-api-token: ${{ secrets.ECLIPSE_GITLAB_API_TOKEN }}
