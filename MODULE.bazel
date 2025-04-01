@@ -1,0 +1,2 @@
+bazel_dep(name = "dash_license_checker", version = "0.1.0")
+
