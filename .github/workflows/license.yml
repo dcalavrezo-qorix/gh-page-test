@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-license-check:
-    uses: qorix-group/cicd-workflows/.github/workflows/license-check.yml@dcalavrezo_dash_int
+    uses: qorix-group/cicd-workflows/.github/workflows/license-check.yml@dcalavrezo_dash
     with:
       repo-url: https://github.com/dcalavrezo-qorix/gh-page-test
       bazel-target: "run //:license-check"
